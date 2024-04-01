@@ -27,6 +27,17 @@
             android:textSize="80sp"
             tools:ignore="RtlHardcoded" />
 
+        <Button
+            android:id="@+id/moveBtn"
+            android:onClick="operationClick"
+            android:text="Result"
+            android:textSize="14dp"
+            style="@style/LightGray.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="24sp" />
+
     </FrameLayout>
 
     <LinearLayout
