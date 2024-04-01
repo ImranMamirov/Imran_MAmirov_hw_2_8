@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         if (view instanceof MaterialButton) {
             String text = ((MaterialButton) view).getText().toString();
             if (isOperation) {
-                resultTV.setText("");
+                resultTV.setText(" ");
                 moveBtn.setVisibility(View.INVISIBLE);
             }
             resultTV.append(text);
